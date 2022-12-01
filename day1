@@ -1,1 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+//stdio standard input&output 标准输入输出
 #include <stdio.h>
+//here's what I researched for myself today
+int main()
+{
+	//0.0
+	//-1^0 * 1.0 * 2^-127
+	// 0 00000000 00000000000000000000000
+	//i think the valid value omits the number 1
+	//in fact,when all exponential bits are detected as the number 0
+	//storage rules have changed
+	return 0;
+}
